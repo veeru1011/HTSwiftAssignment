@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0431A64A415CB1143B72E97C /* Pods_HealthTapAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB2FED5D480DDF69E2BE3C8 /* Pods_HealthTapAssignment.framework */; };
 		BC33B8832127D62F00DF510A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B8822127D62F00DF510A /* AppDelegate.swift */; };
 		BC33B8852127D62F00DF510A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B8842127D62F00DF510A /* ViewController.swift */; };
 		BC33B8882127D62F00DF510A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC33B8862127D62F00DF510A /* Main.storyboard */; };
-		BC33B88A2127D62F00DF510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC33B8892127D62F00DF510A /* Assets.xcassets */; };
 		BC33B88D2127D62F00DF510A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC33B88B2127D62F00DF510A /* LaunchScreen.storyboard */; };
+		BC33B89A2127D9A000DF510A /* APIManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B8992127D9A000DF510A /* APIManger.swift */; };
+		BC33B89C2127DA2200DF510A /* NyResultResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B89B2127DA2200DF510A /* NyResultResult.swift */; };
+		BC33B89F2127DBE500DF510A /* Alamofire+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B89E2127DBE500DF510A /* Alamofire+Codable.swift */; };
+		BC33B8A12127DD9500DF510A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B8A02127DD9500DF510A /* Movie.swift */; };
+		BC33B8A32127E10200DF510A /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33B8A22127E10200DF510A /* MovieViewCell.swift */; };
+		BC33B8A52127E9EA00DF510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC33B8A42127E9EA00DF510A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB2FED5D480DDF69E2BE3C8 /* Pods_HealthTapAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthTapAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD37B1B2EF5CCB6C215F8A /* Pods-HealthTapAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTapAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTapAssignment/Pods-HealthTapAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		BC33B87F2127D62F00DF510A /* HealthTapAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTapAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC33B8822127D62F00DF510A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC33B8842127D62F00DF510A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC33B8872127D62F00DF510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC33B8892127D62F00DF510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC33B88C2127D62F00DF510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC33B88E2127D62F00DF510A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC33B8992127D9A000DF510A /* APIManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManger.swift; sourceTree = "<group>"; };
+		BC33B89B2127DA2200DF510A /* NyResultResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyResultResult.swift; sourceTree = "<group>"; };
+		BC33B89E2127DBE500DF510A /* Alamofire+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Codable.swift"; sourceTree = "<group>"; };
+		BC33B8A02127DD9500DF510A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BC33B8A22127E10200DF510A /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		BC33B8A42127E9EA00DF510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18F276B0881442403AA6290 /* Pods-HealthTapAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTapAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTapAssignment/Pods-HealthTapAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0431A64A415CB1143B72E97C /* Pods_HealthTapAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93A4B44AF11C7B47D3717FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18F276B0881442403AA6290 /* Pods-HealthTapAssignment.debug.xcconfig */,
+				79AD37B1B2EF5CCB6C215F8A /* Pods-HealthTapAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACBAFBF57B8A3FD0A123E39D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB2FED5D480DDF69E2BE3C8 /* Pods_HealthTapAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC33B8762127D62F00DF510A = {
 			isa = PBXGroup;
 			children = (
 				BC33B8812127D62F00DF510A /* HealthTapAssignment */,
 				BC33B8802127D62F00DF510A /* Products */,
+				93A4B44AF11C7B47D3717FA7 /* Pods */,
+				ACBAFBF57B8A3FD0A123E39D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,67 @@
 		BC33B8812127D62F00DF510A /* HealthTapAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				BC33B8822127D62F00DF510A /* AppDelegate.swift */,
-				BC33B8842127D62F00DF510A /* ViewController.swift */,
-				BC33B8862127D62F00DF510A /* Main.storyboard */,
-				BC33B8892127D62F00DF510A /* Assets.xcassets */,
-				BC33B88B2127D62F00DF510A /* LaunchScreen.storyboard */,
-				BC33B88E2127D62F00DF510A /* Info.plist */,
+				BC33B8982127D98600DF510A /* Network */,
+				BC33B8972127D91D00DF510A /* Controller */,
+				BC33B8952127D90C00DF510A /* Model */,
+				BC33B8942127D90600DF510A /* View */,
+				BC33B8962127D91400DF510A /* DefaultMain */,
+				BC33B89D2127DBB300DF510A /* Extensions */,
 			);
 			path = HealthTapAssignment;
+			sourceTree = "<group>";
+		};
+		BC33B8942127D90600DF510A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B8A22127E10200DF510A /* MovieViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC33B8952127D90C00DF510A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B89B2127DA2200DF510A /* NyResultResult.swift */,
+				BC33B8A02127DD9500DF510A /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC33B8962127D91400DF510A /* DefaultMain */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B8822127D62F00DF510A /* AppDelegate.swift */,
+				BC33B8862127D62F00DF510A /* Main.storyboard */,
+				BC33B88B2127D62F00DF510A /* LaunchScreen.storyboard */,
+				BC33B8A42127E9EA00DF510A /* Assets.xcassets */,
+				BC33B88E2127D62F00DF510A /* Info.plist */,
+			);
+			path = DefaultMain;
+			sourceTree = "<group>";
+		};
+		BC33B8972127D91D00DF510A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B8842127D62F00DF510A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC33B8982127D98600DF510A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B8992127D9A000DF510A /* APIManger.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BC33B89D2127DBB300DF510A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC33B89E2127DBE500DF510A /* Alamofire+Codable.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC33B8912127D63000DF510A /* Build configuration list for PBXNativeTarget "HealthTapAssignment" */;
 			buildPhases = (
+				D9D0F9A6258DF2010D6A2400 /* [CP] Check Pods Manifest.lock */,
 				BC33B87B2127D62F00DF510A /* Sources */,
 				BC33B87C2127D62F00DF510A /* Frameworks */,
 				BC33B87D2127D62F00DF510A /* Resources */,
+				B049FE2F5E3FBBD17D964D2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +213,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC33B88D2127D62F00DF510A /* LaunchScreen.storyboard in Resources */,
-				BC33B88A2127D62F00DF510A /* Assets.xcassets in Resources */,
+				BC33B8A52127E9EA00DF510A /* Assets.xcassets in Resources */,
 				BC33B8882127D62F00DF510A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B049FE2F5E3FBBD17D964D2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HealthTapAssignment/Pods-HealthTapAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ANLoader/ANLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthTapAssignment/Pods-HealthTapAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D0F9A6258DF2010D6A2400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthTapAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC33B87B2127D62F00DF510A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC33B89A2127D9A000DF510A /* APIManger.swift in Sources */,
+				BC33B89F2127DBE500DF510A /* Alamofire+Codable.swift in Sources */,
+				BC33B8A12127DD9500DF510A /* Movie.swift in Sources */,
 				BC33B8852127D62F00DF510A /* ViewController.swift in Sources */,
+				BC33B89C2127DA2200DF510A /* NyResultResult.swift in Sources */,
 				BC33B8832127D62F00DF510A /* AppDelegate.swift in Sources */,
+				BC33B8A32127E10200DF510A /* MovieViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +409,11 @@
 		};
 		BC33B8922127D63000DF510A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18F276B0881442403AA6290 /* Pods-HealthTapAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HealthTapAssignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HealthTapAssignment/DefaultMain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.healthtap.HealthTapAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +424,11 @@
 		};
 		BC33B8932127D63000DF510A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AD37B1B2EF5CCB6C215F8A /* Pods-HealthTapAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HealthTapAssignment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HealthTapAssignment/DefaultMain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.healthtap.HealthTapAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
